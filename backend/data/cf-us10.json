@@ -1,0 +1,98 @@
+[
+  {
+    "problemId": "P-201",
+    "displayName": "Availability drop on cert-service US region",
+    "status": "OPEN",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728820800000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT-US01"],
+    "landscape": "cf-us10",
+    "tags": ["css", "cert-service"]
+  },
+  {
+    "problemId": "P-202",
+    "displayName": "High error rate on CRL distribution point",
+    "status": "OPEN",
+    "severityLevel": "ERROR",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728734400000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CRL01"],
+    "landscape": "cf-us10",
+    "tags": ["css", "crl"]
+  },
+  {
+    "problemId": "P-203",
+    "displayName": "Slow SAML response times",
+    "status": "RESOLVED",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "SERVICE",
+    "startTime": 1728648000000,
+    "endTime": 1728662400000,
+    "affectedEntities": ["SERVICE-SLS-US01"],
+    "landscape": "cf-us10",
+    "tags": ["sls", "saml"]
+  },
+  {
+    "problemId": "P-204",
+    "displayName": "Custom alert: disk space below 10%",
+    "status": "OPEN",
+    "severityLevel": "CUSTOM_ALERT",
+    "impactLevel": "INFRASTRUCTURE",
+    "startTime": 1728907200000,
+    "endTime": null,
+    "affectedEntities": ["HOST-US10-02"],
+    "landscape": "cf-us10",
+    "tags": ["infrastructure"]
+  },
+  {
+    "problemId": "P-205",
+    "displayName": "CPU spike in certificate revocation service",
+    "status": "OPEN",
+    "severityLevel": "RESOURCE_CONTENTION",
+    "impactLevel": "SERVICE",
+    "startTime": 1728993600000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-REVOKE01"],
+    "landscape": "cf-us10",
+    "tags": ["css", "revocation"]
+  },
+  {
+    "problemId": "P-206",
+    "displayName": "Login failure spike - external IDP unreachable",
+    "status": "RESOLVED",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728561600000,
+    "endTime": 1728576000000,
+    "affectedEntities": ["SERVICE-SLS-US02"],
+    "landscape": "cf-us10",
+    "tags": ["sls", "idp"]
+  },
+  {
+    "problemId": "P-207",
+    "displayName": "Anomaly in certificate issuance rate",
+    "status": "OPEN",
+    "severityLevel": "CUSTOM_ALERT",
+    "impactLevel": "APPLICATION",
+    "startTime": 1729080000000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT-US02"],
+    "landscape": "cf-us10",
+    "tags": ["css", "issuance"]
+  },
+  {
+    "problemId": "P-208",
+    "displayName": "Response time degradation on broker endpoint",
+    "status": "RESOLVED",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728475200000,
+    "endTime": 1728489600000,
+    "affectedEntities": ["SERVICE-BRK-US01"],
+    "landscape": "cf-us10",
+    "tags": ["css", "broker"]
+  }
+]

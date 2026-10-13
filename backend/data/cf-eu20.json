@@ -1,0 +1,110 @@
+[
+  {
+    "problemId": "P-301",
+    "displayName": "High latency on cert issuance pipeline",
+    "status": "OPEN",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728796800000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT-EU2001"],
+    "landscape": "cf-eu20",
+    "tags": ["css", "cert-service"]
+  },
+  {
+    "problemId": "P-302",
+    "displayName": "Error spike in session management service",
+    "status": "RESOLVED",
+    "severityLevel": "ERROR",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728710400000,
+    "endTime": 1728724800000,
+    "affectedEntities": ["SERVICE-SLS-EU2001"],
+    "landscape": "cf-eu20",
+    "tags": ["sls", "session"]
+  },
+  {
+    "problemId": "P-303",
+    "displayName": "Availability alert: OCSP responder timeout",
+    "status": "OPEN",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "SERVICE",
+    "startTime": 1728883200000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-OCSP-EU2001"],
+    "landscape": "cf-eu20",
+    "tags": ["css", "ocsp"]
+  },
+  {
+    "problemId": "P-304",
+    "displayName": "Custom alert: rate limit threshold exceeded",
+    "status": "OPEN",
+    "severityLevel": "CUSTOM_ALERT",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728969600000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-SLS-EU2002"],
+    "landscape": "cf-eu20",
+    "tags": ["sls", "rate-limit"]
+  },
+  {
+    "problemId": "P-305",
+    "displayName": "Memory pressure on login service nodes",
+    "status": "OPEN",
+    "severityLevel": "RESOURCE_CONTENTION",
+    "impactLevel": "INFRASTRUCTURE",
+    "startTime": 1729056000000,
+    "endTime": null,
+    "affectedEntities": ["HOST-EU20-01", "HOST-EU20-02"],
+    "landscape": "cf-eu20",
+    "tags": ["sls", "memory"]
+  },
+  {
+    "problemId": "P-306",
+    "displayName": "Failed certificate renewal automation",
+    "status": "RESOLVED",
+    "severityLevel": "ERROR",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728624000000,
+    "endTime": 1728638400000,
+    "affectedEntities": ["SERVICE-CERT-EU2002"],
+    "landscape": "cf-eu20",
+    "tags": ["css", "renewal"]
+  },
+  {
+    "problemId": "P-307",
+    "displayName": "Custom alert: certificate count anomaly",
+    "status": "OPEN",
+    "severityLevel": "CUSTOM_ALERT",
+    "impactLevel": "APPLICATION",
+    "startTime": 1729142400000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT-EU2003"],
+    "landscape": "cf-eu20",
+    "tags": ["css"]
+  },
+  {
+    "problemId": "P-308",
+    "displayName": "Slow OIDC token endpoint response",
+    "status": "RESOLVED",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "SERVICE",
+    "startTime": 1728537600000,
+    "endTime": 1728552000000,
+    "affectedEntities": ["SERVICE-SLS-EU2003"],
+    "landscape": "cf-eu20",
+    "tags": ["sls", "oidc"]
+  },
+  {
+    "problemId": "P-309",
+    "displayName": "Network packet loss on staging cluster",
+    "status": "OPEN",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "INFRASTRUCTURE",
+    "startTime": 1729228800000,
+    "endTime": null,
+    "affectedEntities": ["HOST-EU20-03"],
+    "landscape": "cf-eu20",
+    "tags": ["infrastructure"]
+  }
+]

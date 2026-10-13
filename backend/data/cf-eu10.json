@@ -1,0 +1,122 @@
+[
+  {
+    "problemId": "P-101",
+    "displayName": "Response time degradation on cert-service",
+    "status": "OPEN",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728777600000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT01"],
+    "landscape": "cf-eu10",
+    "tags": ["css", "cert-service"]
+  },
+  {
+    "problemId": "P-102",
+    "displayName": "High CPU utilization on login-service",
+    "status": "OPEN",
+    "severityLevel": "RESOURCE_CONTENTION",
+    "impactLevel": "SERVICE",
+    "startTime": 1728691200000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-SLS01"],
+    "landscape": "cf-eu10",
+    "tags": ["sls", "secure-login"]
+  },
+  {
+    "problemId": "P-103",
+    "displayName": "Availability drop - cert-service OCSP endpoint",
+    "status": "RESOLVED",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728604800000,
+    "endTime": 1728619200000,
+    "affectedEntities": ["SERVICE-CERT02"],
+    "landscape": "cf-eu10",
+    "tags": ["css", "ocsp"]
+  },
+  {
+    "problemId": "P-104",
+    "displayName": "Error rate spike in broker service",
+    "status": "OPEN",
+    "severityLevel": "ERROR",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728864000000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-BRK01"],
+    "landscape": "cf-eu10",
+    "tags": ["css", "broker"]
+  },
+  {
+    "problemId": "P-105",
+    "displayName": "Custom alert: certificate expiry in 7 days",
+    "status": "OPEN",
+    "severityLevel": "CUSTOM_ALERT",
+    "impactLevel": "SERVICE",
+    "startTime": 1728950400000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-CERT03"],
+    "landscape": "cf-eu10",
+    "tags": ["css", "expiry"]
+  },
+  {
+    "problemId": "P-106",
+    "displayName": "Memory leak detected in login service",
+    "status": "RESOLVED",
+    "severityLevel": "ERROR",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728518400000,
+    "endTime": 1728532800000,
+    "affectedEntities": ["SERVICE-SLS02"],
+    "landscape": "cf-eu10",
+    "tags": ["sls"]
+  },
+  {
+    "problemId": "P-107",
+    "displayName": "Database connection pool exhausted",
+    "status": "OPEN",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "SERVICE",
+    "startTime": 1729036800000,
+    "endTime": null,
+    "affectedEntities": ["SERVICE-DB01"],
+    "landscape": "cf-eu10",
+    "tags": ["css", "database"]
+  },
+  {
+    "problemId": "P-108",
+    "displayName": "Slow response on token validation endpoint",
+    "status": "RESOLVED",
+    "severityLevel": "PERFORMANCE",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728432000000,
+    "endTime": 1728446400000,
+    "affectedEntities": ["SERVICE-SLS03"],
+    "landscape": "cf-eu10",
+    "tags": ["sls", "token"]
+  },
+  {
+    "problemId": "P-109",
+    "displayName": "Network throughput degradation",
+    "status": "OPEN",
+    "severityLevel": "RESOURCE_CONTENTION",
+    "impactLevel": "INFRASTRUCTURE",
+    "startTime": 1729123200000,
+    "endTime": null,
+    "affectedEntities": ["HOST-EU10-01"],
+    "landscape": "cf-eu10",
+    "tags": ["infrastructure"]
+  },
+  {
+    "problemId": "P-110",
+    "displayName": "Failed health checks on approuter",
+    "status": "RESOLVED",
+    "severityLevel": "AVAILABILITY",
+    "impactLevel": "APPLICATION",
+    "startTime": 1728345600000,
+    "endTime": 1728360000000,
+    "affectedEntities": ["SERVICE-APPROUTER01"],
+    "landscape": "cf-eu10",
+    "tags": ["sls", "approuter"]
+  }
+]
